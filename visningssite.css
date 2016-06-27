@@ -148,14 +148,23 @@ textarea {
 .thumbnail{
     border:none;
 }
+
+body{
+	background-color: red;
+}
 /*gør .btn-lg mindre mellem første og tredje break-point*/
 @media only screen and (min-width:992px) and (max-width: 1199px)  {
     .btn-lg {
-        font-size:14px;
+        font-size:72px;
+        color:purple;
     }
 }
 @media only screen and (max-width: 992px)  {
     .indlejring_container{
         display: none;   
     }
+}
+
+@media (max-width: 768px) {
+    .btn-lg{font-size: 12px}
 }
